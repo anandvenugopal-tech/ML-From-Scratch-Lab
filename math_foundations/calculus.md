@@ -17,7 +17,7 @@ This file focuses only on **ML-relevant calculus**, explained intutively.
 Every ML model makes predictions and produces an **error (loss)**.
 
 Example:
-- Loss = (actual - predicted)^2
+  Loss = (actual - predicted)^2
 
 To improve the model, we must answer: 
 > "How should the weights changes to reduce this loss?"
@@ -45,7 +45,7 @@ If changing a weight decreases loss -> move in that direction
 ML models usually have **many weights**.
 
 Example:
-- L(w₁, w₂, w₃)
+  L(w₁, w₂, w₃)
 
 A **partial derivatives** measures change in loss with respect to **one weight**, keeping others fixed.
 
@@ -61,7 +61,7 @@ This allow us to update each weight seperately.
 The **gradient** is a vector of partial derivatives.
 
 Example:
-- ∇L = [ ∂L/∂w₁ , ∂L/∂w₂ , ∂L/∂w₃ ]
+  ∇L = [ ∂L/∂w₁ , ∂L/∂w₂ , ∂L/∂w₃ ]
 
 The gradient points in the direction of **steepest increase in loss**.
 To reduse the loss, we move in the **opposite direction**.
@@ -72,7 +72,7 @@ To reduse the loss, we move in the **opposite direction**.
 
 Gradient Descent is the algorithm that uses gradient to train models.
 
-- w = w − α × ∂L/∂w
+  w = w − α × ∂L/∂w
 
 Where:
 - `w` = weight

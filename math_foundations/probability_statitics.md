@@ -35,7 +35,7 @@ Probability helps us:
 The **mean** represents the central value of data.
 
 Formula:
-- mean = (x₁ + x₂ + ... + xₙ) / n
+ mean = (x₁ + x₂ + ... + xₙ) / n
 
 
 In ML:
@@ -50,7 +50,7 @@ In ML:
 **Variance** measures how spread out the data is.
 
 Formula:
-- variance = (1/n) * Σ (xᵢ − mean)²
+ variance = (1/n) * Σ (xᵢ − mean)²
 
 
 - Low variance -> data points are close
@@ -107,8 +107,8 @@ Understanding this helps explain why predictions are not always perfect.
 A **loss function** measures how wrong a model’s prediction is.
 
 Common loss functions:
-- Mean Squared Error (MSE) → regression
-- Log Loss (Cross-Entropy) → classification
+- Mean Squared Error (MSE) -> regression
+- Log Loss (Cross-Entropy) -> classification
 
 Lower loss means better model performance.
 
@@ -134,8 +134,8 @@ Many ML algorithms are based on MLE.
 Good models balance both.
 
 This explains why:
-- too simple → underfitting
-- too complex → overfitting
+- too simple -> underfitting
+- too complex -> overfitting
 
 ---
 

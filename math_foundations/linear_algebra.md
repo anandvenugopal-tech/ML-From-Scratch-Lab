@@ -45,7 +45,7 @@ In ML:
 - neural network layers use matrices
 
 Example:
-- X ∈ ℝ^{m×n}
+  X ∈ ℝ^{m×n}
 
 where:
 - 'm' = number of samples
@@ -77,7 +77,7 @@ The dot measures how strongly features influence the output.
 Instead of computing one by one, ML uses **matrix multiplication** to process all samples at once.
 
 That is:
-ŷ = XW + b
+ ŷ = XW + b
 
 where:
 - 'X' = data matrix
@@ -138,5 +138,5 @@ b = 0.2
 y_pred = X.dot(W) + b
 print(y_pred)
 
----
+
 
