@@ -9,7 +9,7 @@ internally**, including the mathematics, optimization, and learning process.
 
 ---
 
-## 🎯 Why This Repository?
+## Why This Repository?
 
 Most ML libraries hide the internal logic.
 This repo focuses on:
