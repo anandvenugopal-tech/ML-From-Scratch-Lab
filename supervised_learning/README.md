@@ -21,7 +21,7 @@ The goal is to learn a function that maps inputs to outputs with minimum error.
 📂 Folder: `linear_regression/`
 
 
-### 2. Logistic Regression *(coming soon)*
+### 2. Logistic Regression
 - Binary classification  
 - Uses Sigmoid + Cross-Entropy loss  
 - Trained with Gradient Descent
@@ -29,7 +29,7 @@ The goal is to learn a function that maps inputs to outputs with minimum error.
 📂 Folder: `logistic_regression/`
 
 
-### 3. Perceptron *(future)*
+### 3. Perceptron
 - Basic binary classifier  
 - Foundation of neural networks
 
