@@ -7,7 +7,7 @@ No machine learning libraries are used.
 
 #import required libraries
 import numpy as np
-from optimization.gradient_descent import GradientDescentRegressor
+from optimization.gradient_descent_regressor import GradientDescent
 
 #define class Linear Regression
 class LinearRegression:
@@ -18,7 +18,7 @@ class LinearRegression:
 		self.tolerance = tolerance
 
 		#create the optimizer
-		self.optimizer = GradientDescentRegressor(
+		self.optimizer = GradientDescent(
 			learning_rate = self.learning_rate,
 			n_iter=self.n_iter,
 			tolerance=self.tolerance

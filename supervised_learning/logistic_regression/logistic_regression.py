@@ -13,7 +13,7 @@ It predicts the probability of class 1 using the sigmoid function.
 """
 
 import numpy as np
-from optimization.gradient_descent import GradientDescentClassifier
+from optimization.gradient_descent_classifier import GradientDescent
 
 #define sigmoid function
 def sigmoid(z):
@@ -31,7 +31,7 @@ class LogisticRegression:
         self.tolerance = tolerance
 
         #create optimizer
-        self.optimizer = GradientDescentClassifier(
+        self.optimizer = GradientDescent(
             learning_rate = self.learning_rate,
             n_iter = n_iter,
             tolerance= self.tolerance
